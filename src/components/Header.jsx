@@ -1,12 +1,15 @@
-function Header(){
-    return(
-        <div /*conteiner pai */>
-            <div /*conteiner da logo da empresa */>
-                <img>{/*logo*/}</img>
-            </div>
+import { BodyHeader } from "../Styles/HeaderStyledComponents";
 
-            <h1>{/*nome da empresa */}</h1>
-        </div>
+function Header(){
+    
+    return(
+        <BodyHeader>
+            <LogoConteiner>
+                logo
+            </LogoConteiner>
+
+            <h1>Nome da Empresa</h1>
+        </BodyHeader>
     );
 }
 

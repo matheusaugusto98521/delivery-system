@@ -1,15 +1,15 @@
 function SubHeader(){
     return(
         <div /*conteiner pai */>
-            <div /*conteiner da barra de pesquisa */>
+            <div className="search-bar">
                 <input type="search"/>
             </div>
 
-            <div /*conteine do carrinho */>
-                <a href="#"></a>
+            <div className="shopp-car">
+                <a href="/order"></a>
             </div>
 
-            <div /*conteiner das categorias consumidas pela API com barra de navegação */>
+            <div className="category-names">
                 <nav>
 
                     <ul>

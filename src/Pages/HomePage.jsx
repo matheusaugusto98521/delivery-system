@@ -1,6 +1,9 @@
+import Header from "../components/Header";
+
 function Homepage(){
     return(
         <div /* conteiner pai*/>
+            <Header/>
 
             <h1>{/*nome da categoria*/}</h1>
 
